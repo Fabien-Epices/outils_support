@@ -1,0 +1,8 @@
+#.gitignore
+/*/__pycache__/
+/*/ZZZ/
+/*/.DS_Store
+/*/.~lock.*.csv#
+/*/*.zip
+.DS_Store
+.~lock.*.csv#

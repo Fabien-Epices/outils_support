@@ -1,0 +1,30 @@
+#Based on La Serve collected values;;;;;;;;;;;
+# Description of fields;;;;;;;;;;;
+# Id;Name;ReadFctCode;WriteFctCode;StartReg;NbReg;EnableReading;EnableWritting;Option1;Option2;;
+Modbus_RequestsTables={;;;;;;;;;;;
+1;Electrical_measurement.G1;4;0;1050;27;1;2;0;0;;
+3;Group_information.G1;4;0;1001;89;1;2;0;0;;
+;;;;;;;;;;;
+};;;;;;;;;;;
+;;;;;;;;;;;
+# Description of fields;;;;;;;;;;;
+# varIndex;varReqIndex;varName;varType;varSigned;varPosition;varOption1;varOption2;varCoeffA;varCoeffB;varUnit;varAction
+Modbus_VariablesTables={;;;;;;;;;;;
+1;1;Tension;8;1;1;;;1;0;V;2
+2;1;Frequence;8;1;2;;;1;0;Hz;2
+3;1;Courant;8;1;3;;;1;0;A;2
+4;1;Puissance active;8;1;4;;;1;0;kW;2
+5;1;Puissance active;8;1;5;;;1;0;kVar;2
+6;1;Puissance reactive;8;1;6;;;1;0;;2
+7;1;Cos phi;8;1;11;;;1;0;;2
+8;1;energie active produite;5;1;7;;;1;0;kWh;4
+9;1;energie reactive produite;5;1;8;;;1;0;kVAh;4
+20;1;Tension d'excitation;8;1;12;;;1;0;V;2
+21;1;Intensite d'excitation;8;1;26;;;1;0;A;2
+16;1;Recopie position pales;8;1;2;;;1;0;;2
+17;1;Mesure de vitesse;8;1;1;;;1;0;;2
+18;1;Debit turbine;8;1;7;;;1;0;;2
+19;1;Debit corrige;8;1;9;;;1;0;;2
+20;1;Temps de couplage;8;1;87;;;1;0;;2
+21;1;Nombre de couplages;8;1;89;;;1;0;;2
+};;;;;;;;;;;

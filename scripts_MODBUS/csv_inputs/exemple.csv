@@ -1,0 +1,25 @@
+##	Requête	Variable	Type	Adr_16b	N	x1	x2	y1	y2	Unité
+	DEFAUTS									
+	DEFAUTS	Défaut mesure de niveau amont grille	u16	100						
+	DEFAUTS	Défaut mesure de niveau aval centrale	u16	101						
+	DEFAUTS	Défaut niveau bas	u16	102						
+	DEFAUTS	Alarme niveau haut	bool	103						
+	DEFAUTS	Alarme niveau bas	bool	104						
+	DEFAUTS	Défaut acquisition température centrale	u16	105						
+	DEFAUTS	Défaut acquisition température extérieur	u16	106						
+	DEFAUTS	Protection de découplage	u8	107						
+	DEFAUTS	Protection de découplage longue	u8	108						
+	…									
+	ETAT GROUPE									
+	ETAT GROUPE	Groupe en Manu	u8	1000						
+#	ETAT GROUPE	Groupe en Auto groupe 1	bool	1000						
+#	ETAT GROUPE	Groupe en Auto groupe 2	bool	1000						
+	ETAT GROUPE	Commutateur groupe 1 sur marche	bool	1001						
+	ETAT GROUPE	Commutateur groupe 2 sur marche	bool	1002						
+#	ETAT GROUPE	réserve		1003						
+	ETAT GROUPE	Mesure production groupe 1	u32	1004		0	65535	100	400	kWh
+	ETAT GROUPE	Mesure production groupe 2	u32	1006		0	65535	100	400	kWh
+	ETAT GROUPE	Compte tours	u32	1008		0	10000	0	166,67	tr.min
+	ETAT GROUPE	libellé groupe 1	char	1010	10					
+	ETAT GROUPE	libellé groupe 2	char	1020	10					
+	…									

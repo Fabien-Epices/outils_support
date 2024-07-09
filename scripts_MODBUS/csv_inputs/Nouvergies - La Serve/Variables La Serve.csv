@@ -1,0 +1,746 @@
+﻿OK;0;Centrale de La Serve;Libellé;Ad API;CE;Astreinte;Histo.;N° page;N° page;N° page;écri.;Automate;Val.API mini;Val. API maxi;Val. fin mini;Val. fin maxi;Unités;Nb  0.00;Lib.inactif;Lib.actif;#
+X;2;;Défaut mesure de niveau amont grille;%M101;1;def101;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;4;;Défaut mesure de niveau aval centrale;%M103;3;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;5;;Défaut niveau bas;%M104;4;def104;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;6;;Alarme niveau haut;%M105;5;def105;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;13;;Alarme niveau bas;%M112;12;def104;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;14;;Défaut acquisition température centrale;%M115;15;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;15;;Défaut acquisition température extérieur;%M116;16;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;16;;Protection de découplage;%M117;17;def117;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;17;;Protection de découplage longue;%M118;18;def118;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;20;;Arrêt d'urgence général;%M121;21;def121;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;24;;Protection C13-100;%M128;28;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;33;;Défaut Com entrées sorties déportées Ilot armoire commun;%M137;37;def137;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;34;;Défaut module entrées sorties déportées Ilot armoire commun;%M138;38;def138;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;35;;Interrupteur HTA général ouvert;%M139;39;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;42;;Défaut dégrilleur;%M147;47;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;43;;Retour de marche dégrilleur;%M148;48;;;;;;;1;0;1;0;1;;;Normal;Actif;#
+X;54;;Défaut manque réactif prolongé;%M159;59;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;55;;Défaut trop de réactif prolongé;%M160;60;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;58;;     ETAT GROUPE:;;;;;2;;;;1;0;0;0;0;;;;;#
+X;59;;Groupe 1 en Maintenance ;%M1001;145;;;2;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;60;;Groupe en Manu;%M1002;146;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;61;;Groupe en Auto;%M1003;147;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;62;;Commutateur groupe sur arrêt;%M1004;148;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;63;;Commutateur groupe sur marche;%M1005;149;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;64;;Groupe en Auto groupe 1;%M1003;;;;2;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;65;;Commutateur groupe sur marche groupe 1;%M1005;;;;2;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;66;;Retour contacteur de couplage groupe;%M1006;150;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;67;;Retour contacteur de couplage groupe 1;%M1006;;;;2;;;;1;0;1;0;1;;;NON;OUI;#
+X;69;;Détecteur pales fermées;%M1009;153;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;70;;Détecteur pales ouvertes;%M1010;154;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;73;;Détecteur pales fermées g1;%M1009;;;;2;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;74;;Détecteur pales ouvertes g1;%M1010;;;;2;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;79;;Défaut com entrées sorties déportées Ilots armoire groupe;%M1015;159;def137|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;80;;Défaut module entrées sorties déportées Ilots armoire groupe;%M1016;160;def138|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;81;;Arrêt d'urgence;%M1017;161;def1017|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;82;;Démarrage trop long;%M1018;162;def1018|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;83;;Arrêt trop long;%M1019;163;def1019|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;84;;Défaut survitesse;%M1020;164;def1020|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;85;;Défaut survitesse mécanique;%M1021;165;def1021|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;86;;Survitesse prolongée;%M1022;166;def1022|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;87;;Maxi Intensité Disjoncteur;%M1023;167;def1023|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;90;;Couplages intempestifs alternateur;%M1026;170;def1026|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;91;;Couplage sauté ;%M1027;171;def1027|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;92;;Non découplage contacteur alternateur;%M1028;172;def1028|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;93;;Mini de puissance alternateur;%M1029;173;def1029|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;94;;Disjoncteur alternateur ouvert;%M1030;174;def1030|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;95;;Défaut positionnement pales;%M1031;175;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;97;;Défaut électrique moteur ppe ghy pales;%M1033;177;def1033|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;98;;Niveau bas huile ghy;%M1034;178;def1034|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;99;;Surchauffe huile ghy;%M1035;179;def1035|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;100;;Mini pression sécurité ghy;%M1036;180;def1036|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;101;;Pression établie accumulateur ghy;%M1037;181;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;102;;Gonflage trop long accumulateur ghy;%M1038;182;def1038|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;104;;Défaut acquisition pression accumulateur GHY;%M1040;184;def1040|groupe1;;;;;;1;0;1;0;1;;;Ouverte;Fermée;#
+X;108;;Alarme circulation huile pivoterie;%M1044;188;def1044|groupe1;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;109;;Défaut sens de rotation turbine;%M1045;189;def1045|groupe1;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;110;;Niveau bas huile pivoterie;%M1046;190;def1046|groupe1;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;111;;Frein desseré;%M1047;191;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;112;;Défaut frein;%M1048;192;def1048|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;113;;Défaut mesure de vitesse;%M1049;193;def1049|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;114;;Défaut acquisition mesure de puissance;%M1050;194;def1050|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;115;;Défaut recopie position pales;%M1051;195;def1052|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;117;;Défaut com entrées sorties déportées Ilots coffret groupe;%M1053;197;def1053|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;118;;Défaut module entrées sorties déportées Ilots coffret groupe;%M1054;198;def1054|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;119;;Disjoncteur pont d'excitation ouvert;%M1055;199;def1055|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;120;;Mini courant d'excitation;%M1056;200;def1056|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;121;;Maxi courant d'excitation;%M1057;201;def1057|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;122;;Retour de marche contacteur d'excitation;%M1058;202;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;123;;Retour tension trop long;%M1059;203;def1059|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;124;;Fusion fusible pont d'excitation;%M1060;204;def1060|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;125;;Surchauffe pont d'excitation;%M1061;205;def1061|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;126;;Maxi tension stator;%M1062;206;def1062|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;127;;Défaut isolement rotor;%M1063;207;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;128;;Surchauffe transformateur d'excitation;%M1064;208;def1064|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;129;;Défaut électrique moteur ppe à graisse;%M1065;209;def1065|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;130;;Niveau bas bac à graisse;%M1066;210;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;137;;Retour de marche moteur ppe à graisse;%M1073;217;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;144;;Défaut acquisition mesure bac à graisse;%M1080;224;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;145;;Défaut acquisition température huile pivot alternateur;%M1081;225;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;146;;Défaut acquisition température palier inférieur alternateur;%M1082;226;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;147;;Défaut acquisition température palier superieur turbine;%M1083;227;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;148;;Défaut acquisition température palier superieur alternateur;%M1084;228;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;154;;Défaut acquisition pression d'huile accumulateur GHY;%M1090;234;def1090|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;155;;Défaut acquisition courant d'excitation;%M1091;235;def1091|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;156;;Défaut acquisition tension d'excitation;%M1092;236;def1092|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;157;;Défaut acquisition tension réseau;%M1093;237;def1093|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;158;;Niveau bas bac à graisse prolongé;%M1095;239;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;159;;Remplissage bac à graisse;%M1096;240;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;160;;Alarme température huile pivot alternateur;%M1097;241;def1097|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;161;;Alarme température palier inférieur alternateur;%M1098;242;def1098|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;162;;Alarme température palier superieur turbine;%M1099;243;def1099|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;163;;Alarme température palier superieur alternateur;%M1100;244;def1100|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;175;;Défaut Surchauffe température huile pivot alternateur;%M1113;257;def1113|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;176;;Défaut Surchauffe température palier inférieur alternateur;%M1114;258;def1114|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;177;;Défaut Surchauffe température palier superieur turbine;%M1115;259;def1115|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;178;;Défaut Surchauffe température palier superieur alternateur;%M1116;260;def1116|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;184;;Défaut communication Diris groupe;%M1122;266;def1122|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;185;;Défaut contacteur d'excitation;%M1123;267;def1123|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;187;;Défaut mesure de niveau aval grille;%M1125;269;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;188;;Alarme perte de charge grille;%M1126;270;def1126|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;189;;Défaut perte de charge grille;%M1127;271;def1127|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;190;;Ordre à distance arrêt;%M1129;273;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;191;;Demande de marche sur débit;%M1130;274;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;192;;Demande d'arrêt sur débit;%M1131;275;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;193;;Défaut détection de fumée turbine;%M1132;276;def1132;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;194;;Disjoncteur BT ouvert;%M1133;277;def119|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;195;;Surintensité disjoncteur BT;%M1134;278;def120|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;196;;Défaut isolement 500V;%M1135;279;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;199;;Défaut détection de fumée armoires;%M1138;282;def132|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;200;;Fusion fusible interrupteur HT/BT;%M1139;283;def140|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;201;;Interrupteur HT/BT ouvert;%M1140;284;def141|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;202;;Alarme température transformateur HT/BT;%M1141;285;def142|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;203;;Défaut température transformateur HT/BT;%M1142;286;def143|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;204;;Dégagement gazeux transformateur HT/BT;%M1143;287;def144|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;205;;Défaut pression transformateur HT/BT;%M1144;288;def145|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;206;;     ETAT GROUPE:;;;;;3;;;;1;0;0;0;0;;;;;#
+X;207;;Groupe en Maintenance ;%M2001;289;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;208;;Groupe en Manu;%M2002;290;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;209;;Groupe en Auto;%M2003;291;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;210;;Commutateur groupe sur arrêt;%M2004;292;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;211;;Commutateur groupe sur marche;%M2005;293;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;212;;Groupe en Auto groupe 2;%M2003;;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;213;;Commutateur groupe sur marche groupe 2;%M2005;;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;214;;Retour contacteur de couplage groupe;%M2006;294;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;215;;Retour contacteur de couplage groupe 2;%M2006;;;;;;;;1;0;1;0;1;;;NON;OUI;#
+X;217;;Détecteur pales fermées;%M2009;297;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;218;;Détecteur pales ouvertes;%M2010;298;;;3;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;219;;Détecteur pales fermées g2;%M2009;;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;220;;Détecteur pales ouvertes g2;%M2010;;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;227;;Arrêt d'urgence;%M2017;305;def1017|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;228;;Démarrage trop long;%M2018;306;def1018|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;229;;Arrêt trop long;%M2019;307;def1019|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;230;;Défaut survitesse;%M2020;308;def1020|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;231;;Défaut survitesse mécanique;%M2021;309;def1021|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;232;;Survitesse prolongée;%M2022;310;def1022|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;233;;Maxi Intensité Disjoncteur;%M2023;311;def1023|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;234;;Défaut chien de garde relais de protection alternateur (SEPAM);%M2024;312;def1024|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;235;;Surintensité alternateur (SEPAM);%M2025;313;def1025|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;236;;Couplages intempestifs alternateur;%M2026;314;def1026|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;237;;Couplage sauté ;%M2027;315;def1027|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;238;;Non découplage contacteur alternateur;%M2028;316;def1028|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;239;;Mini de puissance alternateur;%M2029;317;def1029|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;240;;Disjoncteur alternateur ouvert;%M2030;318;def1030|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;241;;Défaut positionnement pales;%M2031;319;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;242;;Défaut positionnement pales;%M2032;320;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;243;;Défaut électrique moteur ppe ghy pales;%M2033;321;def1033|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;244;;Niveau bas huile ghy;%M2034;322;def1034|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;245;;Surchauffe huile ghy;%M2035;323;def1035|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;246;;Mini pression sécurité ghy;%M2036;324;def1036|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;247;;Pression établie accumulateur ghy;%M2037;325;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;248;;Gonflage trop long accumulateur ghy;%M2038;326;def1038|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;250;;Défaut acquisition pression accumulateur GHY;%M2040;328;def1040|groupe2;;;;;;1;0;1;0;1;;;Ouverte;Fermée;#
+X;254;;Alarme circulation huile pivoterie;%M2044;332;def1044|groupe2;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;255;;Défaut sens de rotation turbine;%M2045;333;def1045|groupe2;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;256;;Niveau bas huile pivoterie;%M2046;334;def1046|groupe2;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;257;;Frein desseré;%M2047;335;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;258;;Défaut frein;%M2048;336;def1048|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;259;;Défaut mesure de vitesse;%M2049;337;def1049|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;260;;Défaut acquisition mesure de puissance;%M2050;338;def1050|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;261;;Défaut recopie position pales;%M2051;339;def1052|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;263;;Défaut com entrées sorties déportées Ilots coffret groupe;%M2053;341;def1053|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;264;;Défaut module entrées sorties déportées Ilots coffret groupe;%M2054;342;def1054|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;265;;Disjoncteur pont d'excitation ouvert;%M2055;343;def1055|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;266;;Mini courant d'excitation;%M2056;344;def1056|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;267;;Maxi courant d'excitation;%M2057;345;def1057|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;268;;Retour de marche contacteur d'excitation;%M2058;346;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;269;;Retour tension trop long;%M2059;347;def1059|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;270;;Fusion fusible pont d'excitation;%M2060;348;def1060|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;271;;Surchauffe pont d'excitation;%M2061;349;def1061|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;272;;Maxi tension stator (SEPAM);%M2062;350;def1062|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;273;;Défaut isolement rotor;%M2063;351;def1063|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;274;;Surchauffe transformateur d'excitation;%M2064;352;def1064|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;275;;Défaut électrique moteur ppe à graisse;%M2065;353;def1065|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;276;;Niveau bas bac à graisse;%M2066;354;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;283;;Retour de marche moteur ppe à graisse;%M2073;361;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;290;;Défaut acquisition mesure bac à graisse;%M2080;368;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;291;;Défaut acquisition température huile pivot alternateur;%M2081;369;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;292;;Défaut acquisition température palier inférieur alternateur;%M2082;370;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;293;;Défaut acquisition température palier superieur turbine;%M2083;371;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;294;;Défaut acquisition température palier superieur alternateur;%M2084;372;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;301;;Défaut acquisition courant d'excitation;%M2091;379;def1091|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;302;;Défaut acquisition tension d'excitation;%M2092;380;def1092|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;303;;Défaut acquisition tension réseau;%M2093;381;def1093|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;304;;Niveau bas bac à graisse prolongé;%M2095;383;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;305;;Remplissage bac à graisse;%M2096;384;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;306;;Alarme température huile pivot alternateur;%M2097;385;def1097|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;307;;Alarme température palier inférieur alternateur;%M2098;386;def1098|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;308;;Alarme température palier superieur turbine;%M2099;387;def1099|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;309;;Alarme température palier superieur alternateur;%M2100;388;def1100|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;321;;Défaut Surchauffe température huile pivot alternateur;%M2113;401;def1113|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;322;;Défaut Surchauffe température palier inférieur alternateur;%M2114;402;def1114|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;323;;Défaut Surchauffe température palier superieur turbine;%M2115;403;def1115|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;324;;Défaut Surchauffe température palier superieur alternateur;%M2116;404;def1116|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;330;;Défaut communication Diris groupe;%M2122;410;def1122|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;331;;Défaut contacteur d'excitation;%M2123;411;def1123|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;333;;Défaut mesure de niveau aval grille;%M2125;413;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;334;;Alarme perte de charge grille;%M2126;414;def1126|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;335;;Défaut perte de charge grille;%M2127;415;def1127|groupe2;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;336;;Ordre à distance arrêt;%M2129;417;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;337;;Demande de marche sur débit;%M2130;418;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;338;;Demande d'arrêt sur débit;%M2131;419;;;;;;;1;0;1;0;1;;;Inactif;Actif;#
+X;339;;Défaut détection de fumée turbine;%M2132;420;def2132;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;340;;Disjoncteur BT ouvert;%M2133;421;def119|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;341;;Surintensité disjoncteur BT;%M2134;422;def120|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;342;;Défaut isolement 500V;%M2135;423;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;343;;Défaut isolement auxiliaires;%M2136;424;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;344;;Défaut alimentation 24VDC;%M2137;425;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;345;;Défaut détection de fumée armoires;%M2138;426;def132|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;346;;Fusion fusible interrupteur HT/BT;%M2139;427;def140|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;347;;Interrupteur HT/BT ouvert;%M2140;428;def141|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;348;;Alarme température transformateur HT/BT;%M2141;429;def142|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;349;;Défaut température transformateur HT/BT;%M2142;430;def143|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;350;;Dégagement gazeux transformateur HT/BT;%M2143;431;def144|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;351;;Défaut pression transformateur HT/BT;%M2144;432;def145|groupe1;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+;;;     DEFAUT DEGRILLEUR:;;;;;;;;;;;;;;;;;;
+X;359;;Défaut dégrilleur 1;%M4007;583;def4007;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;360;;Défaut dégrilleur 2;%M4008;584;def4008;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;361;;Commutateur auto dégrilleur 1;%M4009;585;;;;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;362;;Commutateur auto dégrilleur 2;%M4010;586;;;;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;363;;Marche dégrilleur 1;%M4011;587;;;;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;364;;Marche dégrilleur 2;%M4012;588;;;;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;369;;Défaut communication îlot ES prise d'eau;%M4033;609;;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;370;;Défaut électrique îlot ES prise d'eau;%M4034;610;def4034;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;371;;Défaut prolongé communication îlot ES prise d'eau;%M4035;611;def4035;;;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;412;;     NIVEAUX:;;;;;1;;;;1;0;0;0;0;;;;;#
+X;414;;Cote barrage;%MW128;;;X;1;;;;1;0;2000;0;200;cm;0;;;#
+X;415;;Mesure niveau amont grille;%MW121;;;X;1;;;;1;0;2000;0;200;cm;1;;;#
+X;416;;Mesure niveau amont grille brut;%MW119;;;X;1;;;;1;0;10000;0;1000;cm;1;;;#
+X;415;;Mesure niveau canal;%MW120;;;X;1;;;;1;0;2000;0;200;cm;1;;;#
+X;417;;Mesure niveau aval grille G1;%MW122;;;X;1;;;;1;0;2000;0;2;m;2;;;#
+X;418;;Mesure de perte de charge grille G1;%MW125;;;X;1;;;;1;0;2000;0;2;m;2;;;#
+X;419;;Mesure niveau aval grille G2;%MW136;;;X;1;;;;1;0;2000;0;200;cm;1;;;#
+X;420;;Mesure de perte de charge grille G2;%MW138;;;X;1;;;;1;0;2000;0;200;cm;1;;;#
+X;422;;Mesure niveau aval centrale;%MW123;;;X;1;;;;1;3000;5000;300;500;cm;0;;;#
+X;423;;Hauteur de chute;%MW124;;;X;1;;;;1;6000;10000;6;10;m;2;;;#
+X;436;;     DEBITS:;;;;;1;;;;1;0;0;0;0;;;;;#
+X;437;;Débit sur le barrage;%MW126;;;X;1;;;;1;0;1000;0;10;m³/s;1;;;#
+X;438;;Débit à répartir sur les ouvrages en auto;%MW202;;;X;1;;;;1;0;2000;0;20;m³/s;1;;;#
+X;439;;Somme des débits manuels des ouvrages;%MW203;;;X;1;;;;1;0;2000;0;20;m³/s;1;;;#
+X;441;;     TEMPERATURES:;;;;;1;;;;1;0;0;0;0;;;;;#
+X;442;;Température centrale;%MW131;;;X;1;;;;1;-200;600;-20;60;°C;1;;;#
+X;443;;Température extérieure;%MW132;;;X;1;;;;1;-200;600;-20;60;°C;1;;;#
+X;448;;     INFOS GROUPE:;;;;;2;;;;1;0;0;0;0;;;;;#
+X;449;;Recopie position pales groupe 1;%MW1001;2;;X;2;;;;1;0;1000;0;100;%;1;;;#
+X;451;;Mesure de vitesse groupe 1;%MW1000;1;;X;2;;;;1;0;800;0;800;tr/min;;;;#
+X;453;;Débit turbiné groupe 1;%MW1006;7;;X;2;;;;1;0;1000;0;10;m³/s;1;;;#
+X;454;;Débit corrigé groupe 1;%MW1008;9;;X;2;;;;1;0;1000;0;10;m³/s;1;;;#
+X;455;;Temps de couplage groupe 1;%MD1086;87;;;2;;;;1;0;1;0;1;h;;;;#
+X;456;;Nombre de couplages groupe 1;%MD1088;89;;;2;;;;1;0;1;0;1;;;;;#
+X;458;;     MESURES ELECTRIQUES:;;;;;2;;;;1;0;0;0;0;;;;;#
+X;459;;Tension groupe 1;%MW1050;;;X;2;;;;1;0;600;0;600;V;;;;#
+X;460;;Fréquence groupe 1;%MW1051;;;X;2;;;;1;4500;5500;45;55;Hz;1;;;#
+X;461;;Courant groupe 1;%MW1052;;;X;2;;;;1;0;1000;0;1000;A;;;;#
+X;462;;Puissance active groupe 1;%MW1053;;;X;2;;;;1;0;-500;0;-500;kW;;;;#
+X;463;;Puissance active G1;%MW1053;;;X;;;;;1;0;-500;0;500;kW;;;;#
+X;464;;Puissance réactive groupe 1;%MW1054;;;X;2;;;;1;0;500;0;500;kVar;;;;#
+X;465;;Cos phi groupe 1;%MW1055;;;X;2;;;;1;500;1000;0,5;1;;2;;;#
+X;466;;Tangente phi groupe 1;%MW1060;;;X;2;;;;1;0;1000;0;1;;2;;;#
+X;467;;Énergie active produite groupe 1;%MD1056;;;;2;;;;1;0;1;0;1;kWh;;;;#
+X;468;;Énergie réactive produite groupe 1;%MD1058;;;;2;;;;1;0;1;0;1;kVarh;;;;#
+X;469;;Tension réseau groupe 1;%MW134;;;X;2;;;;1;0;7000;0;700;V;;;;#
+X;470;;Tension d'excitation groupe 1;%MW1061;;;X;2;;;;1;0;2000;0;200;V;;;;#
+X;471;;Intensité d'excitation groupe 1;%MW1076;;;X;2;;;;1;0;1500;0;150;A;;;;#
+X;472;;     TEMPERATURES:;;;;;2;;;;1;0;0;0;0;;;;;#
+X;476;;Température huile pivot alternateur groupe 1;%MW1033;;;X;2;;;;1;0;1300;0;130;°C;1;;;#
+X;477;;Température palier inférieur alternateur groupe 1;%MW1034;;;X;2;;;;1;0;1300;0;130;°C;1;;;#
+X;478;;Température palier supérieur turbine groupe 1;%MW1030;;;X;2;;;;1;0;1300;0;130;°C;1;;;#
+X;479;;Température palier supérieur alternateur groupe 1;%MW1031;;;X;2;;;;1;0;1300;0;130;°C;1;;;#
+X;488;;     INFOS GROUPE:;;;;;3;;;;1;0;0;0;0;;;;;#
+X;489;;Recopie position pales groupe 2;%MW2001;;;X;3;;;;1;0;1000;0;100;%;1;;;#
+X;491;;Mesure de vitesse groupe 2;%MW2000;;;X;3;;;;1;0;800;0;800;tr/min;;;;#
+X;493;;Débit turbiné groupe 2;%MW2006;;;X;3;;;;1;0;1000;0;10;m³/s;1;;;#
+X;494;;Débit corrigé groupe 2;%MW2008;;;X;3;;;;1;0;1000;0;10;m³/s;1;;;#
+X;495;;Temps de couplage groupe 2;%MD2086;;;;3;;;;1;0;1;0;1;h;;;;#
+X;496;;Nombre de couplages groupe 2;%MD2088;;;;3;;;;1;0;1;0;1;;;;;#
+X;498;;     MESURES ELECTRIQUES:;;;;;3;;;;1;0;0;0;0;;;;;#
+X;499;;Tension groupe 2;%MW2050;;;X;3;;;;1;0;600;0;600;V;;;;#
+X;500;;Fréquence groupe 2;%MW2051;;;X;3;;;;1;4500;5500;45;55;Hz;1;;;#
+X;501;;Courant groupe 2;%MW2052;;;X;3;;;;1;0;1000;0;1000;A;;;;#
+X;502;;Puissance active groupe 2;%MW2053;;;X;3;;;;1;0;-500;0;-500;kW;;;;#
+X;503;;Puissance active G2;%MW2053;;;X;;;;;1;0;-500;0;500;kW;;;;#
+X;504;;Puissance réactive groupe 2;%MW2054;;;X;3;;;;1;0;500;0;500;kVar;;;;#
+X;505;;Cos phi groupe 2;%MW2055;;;X;3;;;;1;500;1000;0,5;1;;2;;;#
+X;506;;Tangente phi groupe 2;%MW2060;;;X;3;;;;1;0;1000;0;1;;2;;;#
+X;507;;Énergie active produite groupe 2;%MD2056;;;;3;;;;1;0;1;0;1;kWh;;;;#
+X;508;;Énergie réactive produite groupe 2;%MD2058;;;;3;;;;1;0;1;0;1;kVarh;;;;#
+X;509;;Tension réseau groupe 2;%MW135;;;X;3;;;;1;0;7000;0;700;V;;;;#
+X;510;;Tension d'excitation groupe 2;%MW2061;;;X;3;;;;1;0;2000;0;200;V;;;;#
+X;511;;Intensité d'excitation groupe 2;%MW2076;;;X;3;;;;1;0;1500;0;150;A;;;;#
+X;512;;     TEMPERATURES:;;;;;3;;;;1;0;0;0;0;;;;;#
+X;516;;Température huile pivot alternateur groupe 2;%MW2033;;;X;3;;;;1;0;1300;0;130;°C;1;;;#
+X;517;;Température palier supérieur alternateur groupe 2;%MW2031;;;X;3;;;;1;0;1300;0;130;°C;1;;;#
+X;518;;Température palier inférieur alternateur groupe 2;%MW2034;;;X;3;;;;1;0;1300;0;130;°C;1;;;#
+X;519;;Température palier supérieur turbine groupe 2;%MW2030;;;X;3;;;;1;0;1300;0;130;°C;1;;;#
+X;528;;     NIVEAUX:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;529;;Consigne niveau haut débordement;%MW110;;;X;4;;;3;1;0;3000;0;300;cm;0;;;#
+X;530;;Consigne niveau haut redémarrage;%MW111;;;X;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;531;;Consigne niveau haut redémarrage 2ème groupe;%MW116;;;X;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;532;;Consigne de régulation;%MW112;;;X;4;;;3;1;0;2000;0;200;cm;1;;;#
+X;533;;Consigne alarme niveau bas;%MW117;;;X;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;534;;Consigne niveau bas;%MW113;;;X;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;536;;Seuil perte de charge alarme groupe 1;%MW140;;;;4;;;3;1;0;1000;0;100;cm;0;;;#
+X;537;;Seuil perte de charge défaut groupe 1;%MW141;;;;4;;;3;1;0;1000;0;100;cm;0;;;#
+X;538;;Seuil perte de charge alarme groupe 2;%MW147;;;;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;539;;Seuil perte de charge défaut groupe 2;%MW148;;;;4;;;3;1;0;2000;0;200;cm;0;;;#
+X;540;;Choix sonde de régulation;%M85;;;;4;;;3;1;0;1;0;1;;;NIV AMONT;NIV AV GRILLES;#
+X;541;;     GROUPE 1:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;542;;Débit pour mise en marche groupe 1;%MW1118;;;;4;;;3;1;0;1000;0;10;m³/s;2;;;#
+X;543;;Débit pour arrêt groupe 1;%MW1119;;;;4;;;3;1;0;1000;0;10;m³/s;2;;;#
+X;545;;Limitation ouverture vannage groupe 1;%MW1110;;;;4;;;2;1;-50;1050;-5;105;%;;;;#
+X;546;;Limitation de puissance groupe 1;%MW1111;;;;4;;;3;1;-1000;0;-1000;0;kW;;;;#
+X;547;;Consigne de positionnement si Marche distant groupe 1;%MW1112;;;;4;;;3;1;0;1000;0;100;%;;;;#
+X;550;;Ordre de marche distant g1;%M1222;;;;4;;;1;1;0;1;0;1;;;inactif;ACTIF;#
+X;551;;Ordre d'arrêt distant g1;%M1220;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;553;;Consigne cos phi groupe 1;%MW1108;;;;4;;;3;1;500;1000;0,5;1;;2;;;#
+X;554;;Mot de passe maintenance g1;%MW1113;;;;4;;;3;1;0;9999;0;9999;;;;;#
+X;555;;     GROUPE 2:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;556;;Débit pour mise en marche groupe 2;%MW2118;;;;4;;;3;1;0;1000;0;10;m³/s;2;;;#
+X;557;;Débit pour arrêt groupe 2;%MW2119;;;;4;;;3;1;0;1000;0;10;m³/s;2;;;#
+X;559;;Limitation ouverture vannage groupe 2;%MW2110;;;;4;;;2;1;-50;1050;-5;105;%;;;;#
+X;560;;Limitation de puissance groupe 2;%MW2111;;;;4;;;3;1;-1000;0;-1000;0;kW;;;;#
+X;561;;Consigne de positionnement si Marche distant groupe 2;%MW2112;;;;4;;;3;1;0;1000;0;100;%;;;;#
+X;564;;Ordre de marche distant g2;%M2222;;;;4;;;1;1;0;1;0;1;;;inactif;ACTIF;#
+X;565;;Ordre d'arrêt distant g2;%M2220;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;567;;Consigne cos phi groupe 2;%MW2108;;;;4;;;3;1;500;1000;0,5;1;;2;;;#
+X;568;;Mot de passe maintenance g2;%MW2113;;;;4;;;3;1;0;9999;0;9999;;;;;#
+X;582;;     GHY ET GRAISSAGE:;;;;;2;;;;1;0;0;0;0;;;;;#
+X;583;;Mesure pression accumulateur GHY groupe 1;%MW1003;;;X;2;;;;1;0;1000;0;100;Bars;1;;;#
+X;584;;Mesure niveau bac à graisse groupe 1;%MW1005;;;X;2;;;;1;0;500;0;500;mm;0;;;#
+X;585;;Temps de fonctionnement pompe ghy groupe 1;%MD1080;;;;2;;;;1;0;1;0;1;h;;;;#
+X;586;;Temps de fonctionnement pompe a graisse groupe 1;%MD1082;;;;2;;;;1;0;1;0;1;h;;;;#
+X;590;;     GHY ET GRAISSAGE:;;;;;3;;;;1;0;0;0;0;;;;;#
+X;591;;Mesure pression accumulateur GHY groupe 2;%MW2003;;;X;3;;;;1;0;1000;0;100;Bars;1;;;#
+X;592;;Mesure niveau bac à graisse groupe 2;%MW2005;;;X;3;;;;1;0;500;0;500;mm;0;;;#
+X;593;;Temps de fonctionnement pompe ghy groupe 2;%MD2080;;;;3;;;;1;0;1;0;1;h;;;;#
+X;594;;Temps de fonctionnement pompe a graisse groupe 2;%MD2082;;;;3;;;;1;0;1;0;1;h;;;;#
+X;598;;     GHY ET GRAISSAGE GROUPE 1:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;600;;Mesure niveau bac à graisse groupe 1;%MW1005;;;;4;;;;1;0;500;0;500;mm;1;;;#
+X;601;;Consigne niveau bac à graisse groupe 1;%MW1192;;;;4;;;3;1;0;500;0;500;mm;1;;;#
+X;604;;Temps de marche pompe à graisse groupe 1;%MW1106;;;;4;;;3;1;0;31800;0;530;mn;;;;#
+X;605;;Temps d'arrêt pompe à graisse groupe 1;%MW1107;;;;4;;;3;1;0;31800;0;530;mn;;;;#
+X;606;;Remplissage bac à graisse g1;%M1223;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;589;;Forçage pompe à graisse g1;%M1224;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;607;;     GHY ET GRAISSAGE GROUPE 2:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;609;;Mesure niveau bac à graisse groupe 2;%MW2005;;;;4;;;;1;0;500;0;500;mm;0;;;#
+X;610;;Consigne niveau bac à graisse groupe 2;%MW2192;;;;4;;;3;1;0;500;0;500;mm;0;;;#
+X;613;;Temps de marche pompe à graisse groupe 2;%MW2106;;;;4;;;3;1;0;31800;0;530;mn;;;;#
+X;614;;Temps d'arrêt pompe à graisse groupe 2;%MW2107;;;;4;;;3;1;0;31800;0;530;mn;;;;#
+X;615;;Remplissage bac à graisse g2;%M2223;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;589;;Forçage pompe à graisse g2;%M2224;;;;4;;;3;1;0;1;0;1;;;inactif;ACTIF;#
+X;616;;     TEMPERATURES G1:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;617;;Seuil d'alarme température huile pivot alternateur groupe 1;%MW1201;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;618;;Seuil d'alarme température palier supérieur alternateur groupe 1;%MW1204;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;619;;Seuil d'alarme température palier inférieur alternateur groupe 1;%MW1202;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;620;;Seuil d'alarme température palier supérieur turbine groupe 1;%MW1203;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;616;;     TEMPERATURES G2:;;;;;4;;;;1;0;0;0;0;;;;;#
+X;617;;Seuil d'alarme température huile pivot alternateur groupe 2;%MW2201;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;618;;Seuil d'alarme température palier supérieur alternateur groupe 2;%MW2204;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;619;;Seuil d'alarme température palier inférieur alternateur groupe 2;%MW2202;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;620;;Seuil d'alarme température palier supérieur turbine groupe 2;%MW2203;;;;4;;;3;1;0;1300;0;130;°C;1;;;#
+X;625;;     GROUPES:;;;;;5;;;;1;0;0;0;0;;;;;#
+X;626;;Priorité groupes 1-2;%MW150;;;;5;;;1;1;1;2;1;2;;;;;#
+X;632;;     REGULATION DE NIVEAU:;;;;;5;;;;1;0;0;0;0;;;;;#
+X;633;;Gain proportionnel;%MW190;;;;5;;;4;1;0;1000;0;10;;2;;;#
+X;634;;Intégral;%MW191;;;;5;;;4;1;0;1000;0;10;;2;;;#
+X;635;;Rampe d'incrémentation;%MW192;;;;5;;;4;1;0;9999;0;9999;;;;;#
+X;636;;Rampe de décrémentation;%MW193;;;;5;;;4;1;0;9999;0;9999;;;;;#
+X;637;;Compteur de rampe;%MW194;;;;5;;;4;1;0;9999;0;9999;;;;;#
+X;638;;Période d'exécution régulateur;%MW195;;;;5;;;4;1;0;9999;0;9999;;;;;#
+X;639;;     REGLAGES:;;;;;5;;;;1;0;0;0;0;;;;;#
+X;640;;Seuil recopie fc fermeture pales groupe 1;%MW1101;;;;5;;;4;1;-50;1050;-5;105;%;1;;;#
+X;641;;Seuil recopie fc ouverture pales groupe 1;%MW1102;;;;5;;;4;1;-50;1050;-5;105;%;1;;;#
+X;644;;Seuil recopie fc fermeture pales groupe 2;%MW2101;;;;5;;;4;1;-50;1050;-5;105;%;1;;;#
+X;645;;Seuil recopie fc ouverture pales groupe 2;%MW2102;;;;5;;;4;1;-50;1050;-5;105;%;1;;;#
+X;647;;Acquittement;%M20;;;;;;;0;1;0;1;0;1;;;Inactif;Actif;#
+X;648;;Etat centrale;%M21;;;;;;;0;1;0;1;0;1;;;Inactif;Actif;#
+X;649;;     HEURE:;;;;;5;;;;1;0;0;0;0;;;;;#
+X;650;;Lecture API seconde;%MW100;;;;5;;;;1;0;99;0;99;;;;;#
+X;651;;Lecture API minute;%MW101;;;;5;;;;1;0;99;0;99;;;;;#
+X;652;;Lecture API heure;%MW102;;;;5;;;;1;0;99;0;99;;;;;#
+X;653;;Lecture API jour;%MW103;;;;5;;;;1;0;99;0;99;;;;;#
+X;654;;Lecture API mois;%MW104;;;;5;;;;1;0;99;0;99;;;;;#
+X;655;;Lecture API année;%MW105;;;;5;;;;1;0;99;0;99;;;;;#
+X;656;;     COMMUNICATION:;;;;;5;;;;1;0;0;0;0;;;;;#
+X;657;;Mot de status défaut îlot E/S WAGO Armoire G2;%MW1020;;;;5;;;;1;0;99;0;99;;;;;#
+X;658;;Mot de status n° de module-1 en défaut îlot E/S WAGO Armoire G2;%MW1021;;;;5;;;;1;0;99;0;99;;;;;#
+X;659;;Mot de status défaut îlot E/S WAGO Coffret G2;%MW1022;;;;5;;;;1;0;99;0;99;;;;;#
+X;660;;Mot de status n° de module-1 en défaut îlot E/S WAGO Coffret G2;%MW1023;;;;5;;;;1;0;99;0;99;;;;;#
+X;661;;Mot de status défaut îlot E/S WAGO Armoire G1;%MW1024;;;;5;;;;1;0;99;0;99;;;;;#
+X;662;;Mot de status n° de module-1 en défaut îlot E/S WAGO Armoire G1;%MW1025;;;;5;;;;1;0;99;0;99;;;;;#
+X;663;;Mot de status défaut îlot E/S WAGO Coffret G1;%MW1026;;;;5;;;;1;0;99;0;99;;;;;#
+X;664;;Mot de status n° de module-1 en défaut îlot E/S WAGO Coffret G1;%MW1027;;;;5;;;;1;0;99;0;99;;;;;#
+X;665;;Mot de status défaut îlot E/S WAGO Coffret PE;%MW1028;;;;5;;;;1;0;99;0;99;;;;;#
+X;666;;Mot de status n° de module-1 en défaut îlot E/S WAGO Coffret PE;%MW1029;;;;5;;;;1;0;99;0;99;;;;;#
+X;673;;     REGLAGES DEGRILLEUR GROUPE 1:;;;;;6;;;;1;0;0;0;0;;;;;#
+X;674;;Seuil perte de charge dégrillage groupe 1;%MW4000;;;;6;;;2;1;0;1000;0;100;cm;;;;#
+X;675;;Interval de dégrillage groupe 1;%MW4001;;;;6;;;2;1;0;32000;0;32000;mn;;;;#
+X;677;;      DEGRILLEUR GROUPE 1:;;;;;6;;;;1;0;0;0;0;;;;;#
+X;678;;Commutateur auto dégrilleur 1;%M4009;;;;6;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;679;;Marche dégrilleur 1;%M4011;;;X;6;;;;1;0;2;0;2;;;Inactif;ACTIF;#
+X;680;;Défaut dégrilleur 1;%M4007;;;;6;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;682;;Départ cycle dégrilleur distant groupe 1;%M4101;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;683;;Dégrilleur en mode différentiel groupe 1;%M4102;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;684;;Dégrilleur en mode horloge groupe 1;%M4103;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;685;;Temps de fonctionnement degrilleur 1;%MD4100;;;;6;;;;1;0;1;0;1;h;;;;#
+X;686;;Nombre de cycles degrilleur 1;%MD4102;;;;6;;;;1;0;1;0;1;;;;;#
+X;687;;     REGLAGES DEGRILLEUR GROUPE 2:;;;;;6;;;;1;0;0;0;0;;;;;#
+X;688;;Seuil perte de charge dégrillage groupe 2;%MW4050;;;;6;;;2;1;0;1000;0;100;cm;;;;#
+X;689;;Interval de dégrillage groupe 2;%MW4051;;;;6;;;2;1;0;32000;0;32000;mn;;;;#
+X;691;;      DEGRILLEUR GROUPE 2:;;;;;6;;;;1;0;0;0;0;;;;;#
+X;692;;Commutateur auto dégrilleur 2;%M4010;;;;6;;;;1;0;1;0;1;;;Inactif;ACTIF;#
+X;693;;Marche dégrilleur 2;%M4012;;;X;6;;;;1;0;3;0;3;;;Inactif;ACTIF;#
+X;694;;Défaut dégrilleur 2;%M4008;;;;6;;;;1;0;1;0;1;;;Normal;DEFAUT;#
+X;696;;Départ cycle dégrilleur distant groupe 2;%M4151;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;697;;Dégrilleur en mode différentiel groupe 2;%M4152;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;698;;Dégrilleur en mode horloge groupe 2;%M4153;;;;6;;;2;1;0;1;0;1;;;NON;OUI;#
+X;699;;Temps de fonctionnement degrilleur 2;%MD4150;;;;6;;;;1;0;1;0;1;h;;;;#
+X;700;;Nombre de cycles degrilleur 2;%MD4152;;;;6;;;;1;0;1;0;1;;;;;#
+X;581;;@PING192.168.3.1;;;;;;;;;1;0;1;0;1;;;;;#
+X;582;;@PING192.168.3.2;;;;;;;;;1;0;1;0;1;;;;;#
+X;585;;@PING192.168.3.10;;;;;;;;;1;0;1;0;1;;;;;#
+X;586;;@PING192.168.3.11;;;;;;;;;1;0;1;0;1;;;;;#
+X;587;;@PING192.168.3.12;;;;;;;;;1;0;1;0;1;;;;;#
+X;587;;@PING192.168.3.13;;;;;;;;;1;0;1;0;1;;;;;#
+X;588;;@PING192.168.3.15;;;;;;;;;1;0;1;0;1;;;;;#
+X;589;;@PING192.168.3.17;;;;;;;;;1;0;1;0;1;;;;;#
+X;589;;@PING192.168.3.18;;;;;;;;;1;0;1;0;1;;;;;#
+X;591;;@PING192.168.3.22;;;;;;;;;1;0;1;0;1;;;;;#
+X;594;;@PING192.168.3.25;;;;;;;;;1;0;1;0;1;;;;;#
+X;599;;@PING192.168.3.30;;;;;;;;;1;0;1;0;1;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Active;Inactive;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Ouverte;Fermée;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Ouverte;Fermée;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;ALARME;#
+;;;;;;;;;;;;;;;;;;;Inactif;AUTO;#
+;;;;;;;;;;;;;;;;;;;Inactif;MANU;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Inactif;Actif;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;;;Normal;DEFAUT;#
+;;;;;;;;;;;;;;;;;m;2;;;#
+;;;;;;;;;;;;;;;;;m;2;;;#
+;;;;;;;;;;;;;;;;;m;2;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;V;;;;#
+;;;;;;;;;;;;;;;;;Hz;1;;;#
+;;;;;;;;;;;;;;;;;A;;;;#
+;;;;;;;;;;;;;;;;;kW;;;;#
+;;;;;;;;;;;;;;;;;kW;;;;#
+;;;;;;;;;;;;;;;;;kVar;;;;#
+;;;;;;;;;;;;;;;;;;2;;;#
+;;;;;;;;;;;;;;;;;kWh;;;;#
+;;;;;;;;;;;;;;;;;kVarh;;;;#
+;;;;;;;;;;;;;;;;;;2;;;#
+;;;;;;;;;;;;;;;;;m³/s;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;m³/s;1;;;#
+;;;;;;;;;;;;;;;;;bars;1;;;#
+;;;;;;;;;;;;;;;;;%;1;;;#
+;;;;;;;;;;;;;;;;;tr/min;;;;#
+;;;;;;;;;;;;;;;;;;;Ouvert;Fermé;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;%;1;;;#
+;;;;;;;;;;;;;;;;;tr/min;;;;#
+;;;;;;;;;;;;;;;;;;;Ouvert;Fermé;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;cm;0;;;#
+;;;;;;;;;;;;;;;;;%;;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;;;inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;%;;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;;;inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;bars;1;;;#
+;;;;;;;;;;;;;;;;;l/h;1;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;mn;;;;#
+;;;;;;;;;;;;;;;;;mn;;;;#
+;;;;;;;;;;;;;;;;;;;inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;mn;;;;#
+;;;;;;;;;;;;;;;;;mn;;;;#
+;;;;;;;;;;;;;;;;;;;inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;Bars;1;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;Bars;1;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;°C;1;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;m³/s;2;;;#
+;;;;;;;;;;;;;;;;;m³/s;2;;;#
+;;;;;;;;;;;;;;;;;m³/s;2;;;#
+;;;;;;;;;;;;;;;;;m³/s;2;;;#
+;;;;;;;;;;;;;;;;;%;1;;;#
+;;;;;;;;;;;;;;;;;%;1;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;MANU;AUTO;#
+;;;;;;;;;;;;;;;;;;;NON;OUI;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;s;;;;#
+;;;;;;;;;;;;;;;;;;;NON;OUI;#
+;;;;;;;;;;;;;;;;;s;;;;#
+;;;;;;;;;;;;;;;;;;;NON;OUI;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;m³/s;1;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;m³/s;1;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;cm;1;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;MANU;AUTO;#
+;;;;;;;;;;;;;;;;;;;Inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;;;Inactif;ACTIF;#
+;;;;;;;;;;;;;;;;;m;2;;;#
+;;;;;;;;;;;;;;;;;°;1;;;#
+;;;;;;;;;;;;;;;;;m;2;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;h;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
+;;;;;;;;;;;;;;;;;;;;;#
